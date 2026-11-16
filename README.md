@@ -15,7 +15,7 @@ Library-system-management
 - Indexes
 - Query optimisation
 
-Schema (3NF, 20 records per table) — 6 tables matching your ERD: `user`, `book`, `loan`, `reservation`, `fine`, `incident_report`.
+Schema (3NF, 20 records per table) — 6 tables matching the ERD: `user`, `book`, `loan`, `reservation`, `fine`, `incident_report`.
 
 **How each criterion is covered:**
 
@@ -32,9 +32,9 @@ Schema (3NF, 20 records per table) — 6 tables matching your ERD: `user`, `book
 | **Indexes & optimisation** | Composite indexes on FKs, due dates, and title; `EXPLAIN` before/after comparisons |
 
 
-2. Use Case Diagram — Explanation
+2. Use Case Diagram — 
 
-**Purpose:** The use case diagram shows *who* interacts with the LMS and *what* each type of user is allowed to do. It maps directly onto your business rules (Rules 2, 3, 7, 8).
+**Purpose:** The use case diagram shows *who* interacts with the LMS and *what* each type of user is allowed to do. It maps directly onto the business rules (Rules 2, 3, 7, 8).
 
 ### Actors
 
