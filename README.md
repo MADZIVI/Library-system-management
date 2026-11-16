@@ -106,7 +106,5 @@ The Librarian and Admin are drawn as **generalisations** of the Library User (th
 - *Return date* flowing into **4.0 Return Book** triggers the *fine calculation* flow into D5 only when the return date is later than the due date — Rule 6 as a conditional data flow.
 - *Reminder messages* flow from 3.0 and 4.0 to the **Email/SMS Gateway** — your service rule from the PIECE analysis.
 
-### Context Diagram (Level 0) — one sentence version
-If you also need the Level 0 diagram description: a single process **"0. Library Management System"** sits between the four external entities (User, Librarian, Admin, Email/SMS Gateway); all flows above collapse into arrows between them and the one system bubble.
 
 
