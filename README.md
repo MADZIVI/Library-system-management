@@ -106,7 +106,7 @@ The Librarian and Admin are drawn as **generalisations** of the Library User (th
 - *Return date* flowing into **4.0 Return Book** triggers the *fine calculation* flow into D5 only when the return date is later than the due date — Rule 6 as a conditional data flow.
 - *Reminder messages* flow from 3.0 and 4.0 to the **Email/SMS Gateway** — your service rule from the PIECE analysis.
 
-  ## PICTURE OD DIAGRAMS 
+  ## PICTURE OF DIAGRAMS 
 1. ERD PICTURE https://github.com/MADZIVI/Library-system-management/blob/main/ERD.png
 
 2. DIALOGUE CHART PICTURE  https://github.com/MADZIVI/Library-system-management/blob/main/Dialogue%20Chart.png
